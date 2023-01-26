@@ -1,7 +1,7 @@
 import requests
 import json
 
-token = '9db5fe966ce95921565608b5a34853d0'
+token = ''
 
 
 response = requests.post('https://pokemonbattle.me:5000/pokemons', headers = {'Content-Type': 'application/json',
